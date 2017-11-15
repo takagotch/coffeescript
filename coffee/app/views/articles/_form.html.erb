@@ -1,0 +1,11 @@
+...
+<td>
+  <%= form.check_box :no_expiration %>
+  <%= form.label :no_expiration %><br />
+  #utility.js.coffee
+  <div id="article_expiration_at">
+  <%= form.datetime_select :expired-at,
+    start_year; 2000, end:_year: Time.now.year + 1,
+    use_month_numbers: true %>
+  </div>
+</td>
